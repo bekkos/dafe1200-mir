@@ -1,0 +1,137 @@
+/* 
+Dette er den generelle CSS filen. Dette fungerer på samme måte som f.eks. et CSS framework, i og med at det
+er tilgjengelig på alle sidene og man kan hente og bruke fra dette dokumentet som man ønsker.
+*/
+
+/* Her importerer vi 2 fonter fra fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* Fjerner standard margin og padding som ligger inne i alle HTMl elementer som default. */
+* {
+    margin: 0%;
+    padding: 0%;
+    /* Setter standard fontent til Merriweather */
+    font-family: "Merriweather", serif;
+}
+
+/* Setter høyden til body lik høyden til nettleseren. */
+html, body  {
+    height: 100%;
+}
+
+/* Generelle tekstelementer */
+
+
+/* Legg til classen på objekter du vil at skal bruke Fjalla fonten */
+.fjalla {
+    font-family: 'Fjalla One', sans-serif !important;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+/* Forskjellige universielle tekst-størrelser */
+.small {
+    font-size: 0.8rem;
+}
+
+.medium {
+    font-size: 1.2rem;
+}
+
+.large {
+    font-size: 1.5rem;
+}
+
+.very-large {
+    font-size: 1.8rem;
+}
+
+/* Forskjellige universielle paddinger for tekst */
+.padding-5 {
+    padding: 5px !important;
+}
+
+.padding-10 {
+    padding: 10px !important;
+}
+
+.padding-15 {
+    padding: 15px !important;
+}
+
+/* Farger */
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+/* Navigasjon */
+nav {
+    width: 100%;
+    height: 8vh;
+    min-height: 60px;
+    /* background-color: #aec9d1; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    margin-bottom: 5vh;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 10px;
+    font-family: 'Ubuntu', sans-serif !important;
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 1.2rem;
+}
+
+nav ul li:hover {
+    background-color: #ffc2c4;
+}
+
+/* Linkstyle */
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+
+/* Queries */
+@media only screen and (max-width: 360px) {
+    nav ul li {
+        font-size: 0.6rem;
+        margin: 0 0;
+        padding: 0 2px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
