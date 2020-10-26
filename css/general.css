@@ -69,6 +69,10 @@ html, body  {
     color: #000;
 }
 
+.center {
+    text-align: center;
+}
+
 /* Navigasjon */
 nav {
     width: 100%;
