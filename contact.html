@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <!-- Link ditt CSS her. -->
+  </head>
+  <body>
+    <nav>
+      <h1 class="very-large fjalla padding-15">Innova</h1>
+      <ul>
+        <li class=""><a href="./index.html">Home</a></li>
+        <li class=""><a href="./about.html">About Us</a></li>
+        <li class=""><a href="./schedule.html">Schedule</a></li>
+        <li class=""><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h2 class="title">Contact Us</h2>
+    <h3 class="reply">We will reply within 1-2 buisness days</h3>
+
+    <form class="Contact" action="index.html" method="post">
+      <input
+        type="text"
+        name="name"
+        class="typeinn"
+        placeholder="Your Name"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        class="typeinn"
+        placeholder="Your Email"
+        required
+      />
+      <textarea
+        name="message"
+        class="message"
+        rows="15"
+        placeholder="Your message"
+        required
+      ></textarea>
+      <input type="submit" name="submit" class="sendbutton" value="Send" />
+    </form>
+  </body>
+</html>

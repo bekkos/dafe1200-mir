@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  align-self: center;
+  margin: 0 3rem 6rem 3rem;
+  flex-basis: 300px;
+}
+
+.dark-blue {
+  color: #56515C;
+}
+
+.teal {
+  color: #89ADB4;
+}
+
+.introduction {
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+.small-medium {
+  font-size: 1.0rem;
+}

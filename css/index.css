@@ -37,7 +37,6 @@
     height: auto !important;
     background-color: #AEC9D1;
     align-self: flex-start;
-
 }
 .spacer {
     width: 100%;
@@ -76,4 +75,50 @@ button {
 #motto {
     font-size: 4rem !important;
     text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+
+
+/* Queries */
+@media only screen and (max-width: 360px) {
+    
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 1231px) {
+    .content-container {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .wrapper {
+        height: auto;
+        margin: 3vh auto;
+        padding-top: 3vh;
+        width: 85%;
+    }
+
+    #sub-cont-1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+    #sub-cont-2 {
+        width: 100%; 
+    }
+
+    .image-container {
+        width: 100%;
+    }
 }

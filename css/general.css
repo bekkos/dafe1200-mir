@@ -112,6 +112,11 @@ a {
     font-family: inherit;
 }
 
+.center {
+    text-align: center;
+    margin: auto;
+}
+
 
 /* Queries */
 @media only screen and (max-width: 360px) {
