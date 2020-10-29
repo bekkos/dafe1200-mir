@@ -78,6 +78,17 @@ button {
     text-align: center;
 }
 
+.sb {
+    background-color: #AEC9D1;
+}
+
+.sb:hover {
+    background-color: #81acb9;
+}
+
+.sb:focus {
+    border: 1px solid black;
+}
 
 /* Queries */
 @media only screen and (max-width: 360px) {
